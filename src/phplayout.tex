@@ -1,0 +1,1708 @@
+\documentclass[12pt,a4paper,twosides,ngerman]{scrbook}
+\usepackage{charter}
+\usepackage{listings,color} 
+\usepackage{epsf} 
+\usepackage{longtable}
+\usepackage{tikz}
+\usepackage{subfig}
+\usepackage{makeidx}
+\usepackage{alltt}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{pifont}
+\usepackage[ngerman]{babel}
+\usepackage{fancyhdr}
+
+ 
+%\usepackage[dvipdfm]{hyperref}
+ 
+\evensidemargin = 10pt
+\oddsidemargin = 2pt 
+ 
+\newcommand{\ii}{{\rm i}}
+\newcommand{\dd}{{\rm d}}
+\newcommand{\D}{{\,\rm d}}
+
+ 
+ 
+  
+\makeindex
+\pagestyle{fancy} 
+
+ 
+\footskip = 30pt 
+\textheight = 700pt  
+ 
+
+\renewcommand{\headrulewidth}{0.4pt}  
+\renewcommand{\footrulewidth}{0pt}  
+
+  
+  
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter \ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection \ #1}{}} 
+
+
+
+
+\fancyhead{} 
+
+\fancyhead[LE]{\leftmark}
+\fancyhead[LO]{\leftmark}
+\fancyhead[RE]{\rightmark} 
+\fancyhead[RO]{\rightmark}  
+
+\fancyfoot{} 
+
+\fancyfoot[LE,RO]{\thepage}
+
+ 
+ 
+
+ 
+ 
+
+
+ 
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\large{\bfseries{Web \& Book (phplayout)}} 
+\end{center}
+\end{titlepage}
+
+\chapter{Hermann Hesse}
+\section{Hessek-Bilder}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek01.eps}}
+\caption{\em Hesse k01}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek02.eps}}
+\caption{\em Hesse k02}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek03.eps}}
+\caption{\em Hesse k03}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek04.eps}}
+\caption{\em Hesse k04}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek05.eps}}
+\caption{\em Hesse k05}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek06.eps}}
+\caption{\em Hesse k06}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek07.eps}}
+\caption{\em Hesse k07}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek08.eps}}
+\caption{\em Hesse k08}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek09.eps}}
+\caption{\em Hesse k09}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek10.eps}}
+\caption{\em Hesse k10}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek11.eps}}
+\caption{\em Hesse k11}\label{fig1}
+\end{figure} 
+ 
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek13.eps}}
+\caption{\em Hesse k13}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek14.eps}}
+\caption{\em Hesse k14}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{hessek15.eps}}
+\caption{\em Hesse k15}\label{fig1}
+\end{figure}
+
+ 
+ 
+
+ 
+ 
+ 
+\section{Hesseg-Bilder}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_01.eps}}
+\caption{\em Hesse g01}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_02.eps}}
+\caption{\em Hesse g02}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_03.eps}}
+\caption{\em Hesse g03}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_04.eps}}
+\caption{\em Hesse g04}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_05.eps}}
+\caption{\em Hesse g05}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_06.eps}}
+\caption{\em Hesse g06}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_07.eps}}
+\caption{\em Hesse g07}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_08.eps}}
+\caption{\em Hesse g08}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_09.eps}}
+\caption{\em Hesse g09}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_10.eps}}
+\caption{\em Hesse g10}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_11.eps}}
+\caption{\em Hesse g11}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_12.eps}}
+\caption{\em Hesse g12}\label{fig1}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_13.eps}}
+\caption{\em Hesse g13}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{gallery_14.eps}}
+\caption{\em Hesse g14}\label{fig1}
+\end{figure}
+
+ 
+
+ 
+
+\chapter{Layout}
+\section{Bilder}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{holygrail.eps}}
+\caption{\em Holy Grail Layout}\label{fig1}
+\end{figure}
+
+
+ 
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{altkonstanz.eps}}
+\caption{\em Konstanz am Bodensee}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfxsize=155mm
+\centerline{\epsffile{altkonstanz.eps}}
+\caption{\em Konstanz am Bodensee - 155mm - horizontal}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfxsize=155mm
+\centerline{\epsffile{konstanzhafen.eps}}
+\caption{\em Hafen von Konstanz am Bodensee}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfxsize=155mm
+\centerline{\epsffile{charter-sample.eps}}
+\caption{\em Schrift Charter}\label{fig1}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{article.eps}}
+\caption{\em article}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{nav-article.eps}}
+\caption{\em nav-article}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{article-nav.eps}}
+\caption{\em article-nav}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{nav-article-aside.eps}}
+\caption{\em nav-article-aside}\label{fig1}
+\end{figure}
+
+\begin{figure}[htbp]
+\epsfysize=3.0in
+\centerline{\epsffile{aside-article-nav.eps}}
+\caption{\em aside-article-nav}\label{fig1}
+\end{figure}
+ 
+\newpage 
+ 
+%
+\lstset{
+language=PHP,
+keywordstyle=\color{blue},
+commentstyle=\color{green},
+stringstyle=\color{red},
+morekeywords={*,mysqli_query},
+morekeywords={*,mysqli_connect},
+morekeywords={*,stripSlashes},
+frame=single,
+frameround=tttt,
+basicstyle=\footnotesize\sffamily   
+}
+%
+
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+\section{Source Code}
+
+ 
+ 
+ 
+ 
+ 
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout.php]
+<!-- Program Name: phplayout.php -->
+<?php
+echo('<html>');
+ echo('<head>');
+  echo('<title>Dynamic Layout with php and CSS</title>');
+  include 'phplayout-1.php';   --->   include 'phplayout-8.php';   
+ echo('</head>');
+ include 'phplayout-9.php';   --->   include 'phplayout-12.php'; 
+ echo('<body class = "' . $format . ' ' . $font . ' colorbody">');
+  echo('<div id="siteShell">');
+   echo('<div id="headFrame">');
+    echo('<div class="headPanel traybar colorhead">');
+     include 'phplayout-13.php';
+     if ($format != "col1WM")
+      include 'phplayout-14.php';   --->   include 'phplayout-18.php';
+     else
+      include 'phplayout-19.php';
+     include 'phplayout-20.php';   --->   include 'phplayout-30.php';
+    echo('</div>');
+   echo('</div>');
+   echo('<div id="siteFrame">');
+    echo('<div id="sitePanel">');
+     echo('<div id="coreFrame">');
+      echo('<div id="corePanel">');
+       echo('<div id="mainFrame" class="mainPanel">');
+        echo('<div class="mainPanel">');
+         include 'phplayout-31.php';
+        echo('</div>');
+      echo('</div>');
+      echo('<div id="menuFrame">');
+       echo('<div class="menuPanel">');
+         include 'phplayout-32.php';
+       echo('</div>');
+      echo('</div>');
+     echo('</div>');
+     echo('<div id="moreFrame">');
+      echo('<div class="morePanel">');
+       include 'phplayout-33.php';
+      echo('</div>');
+     echo('</div>');
+    echo('</div>');
+   echo('</div>');
+  echo('</div>');
+  echo('<div id="footFrame">');
+   echo('<div class="footPanel colorfoot">');
+    include 'phplayout-34.php';
+   echo('</div>');
+  echo('</div>');
+ echo('</div>');
+ echo('</body>');
+echo('</html>');
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-1.php]
+<!-- Program Name: phplayout-1.php -->
+<style type="text/css"><!--
+.colormain {background-color: #ccccff;  color: #000000;}
+.colormenu {background-color: #9999cc;  color: #000000;}
+.colormore {background-color: #cccccc;  color: #000000;}
+.colorbody {background-color: #FFFFFF;  color: #000000;}
+.colorhead {background-color: #FFFFFF;  color: #000000;}
+.colorfoot {background-color: #FFFFFF;  color: #000000;}
+//--></style>
+<style type="text/css"><!--
+a:link {color:blue; text-decoration:none      }
+a:visited {color:blue; text-decoration:none       }
+a:hover {color:#FF9900; text-decoration:none; outline:none }
+a:focus {color:#FF9900; text-decoration:none; outline:none   }
+a:active {color:blue; text-decoration:none  }
+//--></style>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+ 
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-2.php]
+<!-- Program Name: phplayout-2.php -->
+<link rel="STYLESHEET" type="text/css"
+      href="styles/formats/col3ML.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/formats/col3MR.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/formats/col2ML.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/formats/col2MR.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/formats/col1WM.css"
+      media="screen,projection" />
+\end{lstlisting}
+\end{minipage}
+\end{center}       
+ 
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-3.php]
+<!-- Program Name: phplayout-3.php -->
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/arial080.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/arial090.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/arial100.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/arial110.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/arial120.css"
+      media="screen,projection" />
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-4.php]
+<!-- Program Name: phplayout-4.php -->
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/verdana080.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/verdana090.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/verdana100.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/verdana110.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/verdana120.css"
+      media="screen,projection" />
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+ 
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-5.php]
+<!-- Program Name: phplayout-5.php -->
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/trebuchet080.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/trebuchet090.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/trebuchet100.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/trebuchet110.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/trebuchet120.css"
+      media="screen,projection" />
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-6.php]
+<!-- Program Name: phplayout-6.php -->
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/georgia080.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/georgia090.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/georgia100.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/georgia110.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/georgia120.css"
+      media="screen,projection" />
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+ 
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-7.php]
+<!-- Program Name: phplayout-7.php -->
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/lucida080.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/lucida090.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/lucida100.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/lucida110.css"
+      media="screen,projection" />
+<link rel="STYLESHEET" type="text/css"
+      href="styles/text/lucida120.css"
+      media="screen,projection" />
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+ 
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-8.php]
+<!-- Program Name: phplayout-8.php -->
+<link rel="STYLESHEET" type="text/css"
+      href="styles/print-mod-test.css"
+      media="print" />
+<!--                            CSS Fixes for Internet Explorer 7 -->
+<!--[if IE 7.0]>
+<style type="text/css">@import url("styles/fixes/ie7.css");</style>
+<![endif]-->
+<!--                            CSS Fixes for Internet Explorer 6 -->
+<!--[if IE 6]>
+<style type="text/css">@import url("styles/fixes/ie6.css");</style>
+<![endif]-->
+<!--                          CSS Fixes for Internet Explorer 5.5 -->
+<!--[if IE 5.5000]>
+<style type="text/css">@import url("styles/fixes/ie55.css");</style>
+<![endif]-->
+<!--                            CSS Fixes for Internet Explorer 5 -->
+<!--[if IE 5.0]>
+<style type="text/css">@import url("styles/fixes/ie5.css");</style>
+<![endif]-->
+<!--                              CSS Fixes for non MSIE Browsers -->
+<!--[if !IE]> <-->
+<link rel="STYLESHEET" type="text/css"
+      href="styles/fixes/nonIE.css"
+      media="screen,projection"
+      title="Holy Grail Styling" />
+<!--> <![endif]-->
+<script type="text/javascript">
+/*
+The strangest IE Bug ever requires this alert when loading this site
+at a resolution of 800x600. For some reason, this commented alert
+fixes it so that it loads without hanging.
+*/
+// alert("Weird. Just plain weird.");
+</script>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-9.php]
+<!-- Program Name: phplayout-9.php -->
+<?php
+$fontfamily = $_GET[fontfamily];
+if ($fontfamily != '')
+ {
+  switch($fontfamily)
+   {
+    case 'arial';
+    case 'verdana';
+    case 'trebuchet';
+    case 'georgia';
+    case 'lucida';
+    break;
+    default;
+    $fontfamily = 'verdana';
+    break;
+   }
+ }
+else
+ {
+  $fontfamily = 'verdana';
+ }
+$fontsize = $_GET[fontsize];
+if ($fontsize != '')
+ {
+  switch($fontsize)
+   {
+    case '080';
+    case '090';
+    case '100';
+    case '110';
+    case '120';
+    break;
+    default;
+    $fontsize = '090';
+    break;
+   }
+ }
+else
+ {
+  $fontsize = '090';
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-10.php]
+<!-- Program Name: phplayout-10.php -->
+<?php
+$format = $_GET[format];
+if ($format != '')
+ {
+  switch($format)
+   {
+    case 'col1WM';
+    case 'col2ML';
+    case 'col2MR';
+    case 'col3ML';
+    case 'col3MR';
+    case 'right';
+    break;
+    default;
+    $format = 'col2ML';
+    break;
+   }
+ }
+else
+ {
+  $format = 'col2ML';
+ }
+$navigation = $_GET[navigation];
+if ($navigation != '')
+ {
+  switch($navigation)
+   {
+    case 'left';
+    case 'right';
+    break;
+    default;
+    $navigation = '';
+    break;
+   }
+ }
+$columns = $_GET[columns];
+if ($columns != '')
+ {
+  switch($columns)
+   {
+    case '1';
+    case '2';
+    case '3';
+    break;
+    default;
+    $columns = '';
+    break;
+   }
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+ 
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-11.php]
+<!-- Program Name: phplayout-11.php -->
+<?php
+if ($columns != "")
+ {
+  if ($columns == "1")
+   {
+    $format = "col1WM";
+   }
+  else
+   {
+    if ($columns == "2")
+     {
+      if ($format == "col1WM")
+       {
+        $format = "col2ML";
+       }
+      if ($format == "col3ML")
+       {
+        $format = "col2ML";
+       }
+      if ($format == "col3MR")
+       {
+        $format = "col2MR";
+       }
+     }
+    else
+     {
+      if ($columns == "3")
+       {
+        if ($format == "col1WM")
+	 {
+	  $format = "col3ML";
+	 }
+	if ($format == "col2ML")
+	 {
+	  $format = "col3ML";
+	 }
+	if ($format == "col2MR")
+	 {
+	  $format = "col3MR";
+	 }
+       }
+     }
+   }
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-12.php]
+<!-- Program Name: phplayout-12.php -->
+<?php
+if ($navigation != "")
+ {
+  if ($navigation == "left")
+   {
+    if ($format == "col2MR")
+     {
+      $format = "col2ML";
+     }
+    if ($format == "col3MR")
+     {
+      $format = "col3ML";
+     } 
+   }
+  else
+   {
+    if ($navigation == "right")
+     {
+      if ($format == "col2ML")
+       {
+        $format = "col2MR";
+       }
+      if ($format == "col3ML")
+       {
+        $format = "col3MR";
+       }
+     }
+   }
+ }
+$font = $fontfamily . $fontsize;
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-13.php]
+<!-- Program Name: phplayout-13.php -->
+<br>
+<center><h3>Web & Book - Layout</h3></center>
+<center><h4>head</h4></center>
+<center>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-14.php]
+<!-- Program Name: phplayout-14.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?columns=1'; 
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontsize=' . $fontsize;
+$echoarg .= '&fontfamily=' . $fontfamily;
+$echoarg .= '" title="One Column Page';
+if (substr($format,3,1) == "1")
+ {
+  echo($echoarg . ' - Here we are"><strong>I</strong></a> &#124 ');
+ }
+else
+ {
+  echo($echoarg . '">I</a> &#124 ');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-15.php]
+<!-- Program Name: phplayout-15.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?columns=2'; 
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontsize=' . $fontsize;
+$echoarg .= '&fontfamily=' . $fontfamily;
+$echoarg .= '" title="Two Columns Page';
+if (substr($format,3,1) == "2")
+ {
+  echo($echoarg .' - Here we are"><strong>II</strong></a> &#124 ');
+ }
+else
+ {
+  echo($echoarg .'">II</a> &#124 ');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-16.php]
+<!-- Program Name: phplayout-16.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?columns=3'; 
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontsize=' . $fontsize;
+$echoarg .= '&fontfamily=' . $fontfamily;
+$echoarg .= '" title="Three Columns Page';
+if (substr($format,3,1) == "3")
+ {
+  echo($echoarg . ' - Here we are"><strong>III</strong></a> &#124 ');
+ }
+else
+ {
+  echo($echoarg . '">III</a> &#124 ');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-17.php]
+<!-- Program Name: phplayout-17.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?navigation=left';
+$echoarg .= '&columns=' . $columns;
+$echoarg .= '&fontsize=' . $fontsize;
+$echoarg .= '&fontfamily=' . $fontfamily;
+$echoarg .= '" title="Left Menu Navigation';
+
+if (substr($format,5,1) == "L")
+ {
+  echo($echoarg . ' - Here we are"><strong>L</strong></a> &#124 ');
+ }
+else
+ {
+  echo($echoarg . '">L</a> &#124 ');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-18.php]
+<!-- Program Name: phplayout-18.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?navigation=right';
+$echoarg .= '&columns=' . $columns;
+$echoarg .= '&fontsize=' . $fontsize;
+$echoarg .= '&fontfamily=' . $fontfamily;
+$echoarg .= '" title="Right Menu Navigation'; 
+if (substr($format,5,1) == "R")
+ {
+  echo($echoarg . ' - Here we are"><strong>R</strong></a> &#124 ');
+ }
+else
+ {
+  echo($echoarg . '">R</a> &#124 ');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-19.php]
+<!-- Program Name: phplayout-19.php -->
+<?php
+{
+ $echoarg  = '<a href="phplayout.php?columns=1';
+ $echoarg .= '&fontsize=' . $fontsize;
+ $echoarg .= '&fontfamily=' . $fontfamily;
+ $echoarg .= '" title="One Column Page - Here we are ">';
+ echo($echoarg . '<strong>I</strong></a> &#124 ');
+ $echoarg  = '<a href="phplayout.php?columns=2';
+ $echoarg .= '&fontsize=' . $fontsize;
+ $echoarg .= '&fontfamily=' . $fontfamily;
+ echo($echoarg . '" title="Two Columns Page">II</a> &#124 ');
+ $echoarg  = '<a href="phplayout.php?columns=3';
+ $echoarg .= '&fontsize=' . $fontsize;
+ $echoarg .= '&fontfamily=' . $fontfamily;
+ echo($echoarg . '" title="Three Columns Page">III</a>');
+}
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-20.php]
+<!-- Program Name: phplayout-20.php -->
+<?php
+echo('</center><br> ');
+echo('<center>');
+if ($fontfamily != "")
+ {
+  $font_family = $fontfamily;
+ }
+if ($fontsize != "")
+ {
+  $font_size = $fontsize;
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-21.php]
+<!-- Program Name: phplayout-21.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?fontsize=' . $fontsize; 
+$echoarg .= '&columns=' . $columns;
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontfamily=arial" title="Font Family = Arial';
+if ($font_family == "arial" )
+ {
+  echo($echoarg . ' - Here we are"><strong>Arial</strong></a> ');
+ }
+else
+ {
+  echo($echoarg . '">Arial</a> ');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-22.php]
+<!-- Program Name: phplayout-22.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?fontsize=' . $fontsize; 
+$echoarg .= '&columns=' . $columns;
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontfamily=verdana" title="Font Family = Verdana';
+if ($font_family == "verdana" )
+ {
+  echo($echoarg . ' - Here we are"><strong>Verdana</strong></a> ');
+ }
+else
+ {
+  echo($echoarg . '">Verdana</a> ');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-23.php]
+<!-- Program Name: phplayout-23.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?fontsize=' . $fontsize; 
+$echoarg .= '&columns=' . $columns;
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontfamily=trebuchet" title="Font Family = Trebuchet';
+if ($font_family == "trebuchet" )
+ {
+  echo($echoarg . ' - Here we are"><strong>Trebuchet</strong></a> ');
+ }
+else
+ {
+  echo($echoarg . '">Trebuchet</a> ');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-24.php]
+<!-- Program Name: phplayout-24.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?fontsize=' . $fontsize; 
+$echoarg .= '&columns=' . $columns;
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontfamily=georgia" title="Font Family = Georgia';
+if ($font_family == "georgia" )
+ {
+  echo($echoarg . ' - Here we are"><strong>Georgia</strong></a> ');
+ }
+else
+ {
+  echo($echoarg . '">Georgia</a> ');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-25.php]
+<!-- Program Name: phplayout-25.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?fontsize=' . $fontsize; 
+$echoarg .= '&columns=' . $columns;
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontfamily=lucida" title="Font Family = Lucida';
+if ($font_family == "lucida" )
+ {
+  echo($echoarg . ' - Here we are"><strong>Lucida</strong></a> - ');
+ }
+else
+ {
+  echo($echoarg . '">Lucida</a> - ');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-26.php]
+<!-- Program Name: phplayout-26.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?fontfamily=' . $fontfamily; 
+$echoarg .= '&columns=' . $columns;
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontsize=080" title="Font Size = 80%';
+if ($font_size == "080" )
+ {
+  echo($echoarg .  ' - Here we are"><strong>80%</strong></a>');
+ }
+else
+ {
+  echo($echoarg . '">80%</a>');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-27.php]
+<!-- Program Name: phplayout-27.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?fontfamily=' . $fontfamily; 
+$echoarg .= '&columns=' . $columns;
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontsize=090" title="Font Size = 90%';
+if ($font_size == "090" )
+ {
+  echo($echoarg .  ' - Here we are"><strong>90%</strong></a>');
+ }
+else
+ {
+  echo($echoarg . '">90%</a>');
+ }
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-28.php]
+<!-- Program Name: phplayout-28.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?fontfamily=' . $fontfamily; 
+$echoarg .= '&columns=' . $columns;
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontsize=100" title="Font Size = 100%';
+if ($font_size == "100" )
+ {
+  echo($echoarg .  ' - Here we are"><strong>100%</strong></a>');
+ }
+else
+ {
+  echo($echoarg . '">100%</a>');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-29.php]
+<!-- Program Name: phplayout-29.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?fontfamily=' . $fontfamily; 
+$echoarg .= '&columns=' . $columns;
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontsize=110" title="Font Size = 110%';
+if ($font_size == "110" )
+ {
+  echo($echoarg .  ' - Here we are"><strong>110%</strong></a>');
+ }
+else
+ {
+  echo($echoarg . '">110%</a>');
+ }
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-30.php]
+<!-- Program Name: phplayout-30.php -->
+<?php
+$echoarg  = '<a href="phplayout.php';
+$echoarg .= '?fontfamily=' . $fontfamily; 
+$echoarg .= '&columns=' . $columns;
+$echoarg .= '&navigation=' . $navigation;
+$echoarg .= '&fontsize=120" title="Font Size = 120%';
+if ($font_size == "120" )
+ {
+  echo($echoarg .  ' - Here we are"><strong>120%</strong></a>');
+ }
+else
+ {
+  echo($echoarg . '">120%</a>');
+ }
+echo('</center><br> ');
+?>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-31.php]
+<!-- Program Name: phplayout-31.php -->
+<p class="colormain" >
+ <b>
+  <center>
+   <h4>
+    main (liquid width - %)
+   </h4>
+  </center>
+ </b>
+ Lorem ipsum dolor sit amet, consectetuer sadipscing elitr, sed diam
+ nonumy  eirmod tempor invidunt ut labore et dolore magna aliquyam
+ erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+ et ea rebum. Stet  clita kasd gubergren, no sea takimata sanctus est.
+ Lorem ipsum dolor sit amet, consectetuer sadipscing elitr, sed diam
+ nonumy  eirmod tempor invidunt ut labore et dolore magna aliquyam
+ erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+ et ea rebum. Stet  clita kasd gubergren, no sea takimata sanctus est.
+ Lorem ipsum dolor sit amet, consectetuer sadipscing elitr, sed diam
+ nonumy  eirmod tempor invidunt ut labore et dolore magna aliquyam
+ erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+ et ea rebum. Stet  clita kasd gubergren, no sea takimata sanctus est.
+ Lorem ipsum dolor sit amet, consectetuer sadipscing elitr, sed diam
+ nonumy  eirmod tempor invidunt ut labore et dolore magna aliquyam
+ erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+ et ea rebum. Stet  clita kasd gubergren, no sea takimata sanctus est
+</p>
+\end{lstlisting}
+\end{minipage}
+\end{center} 			
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-32.php]
+<!-- Program Name: phplayout-32.php -->
+<p class="colormenu">
+ <b>
+  <center>
+   <h4>
+    menu (elastic width - em)
+   </h4>
+  </center>
+ </b>
+ Lorem ipsum dolor sit amet, consectetuer sadipscing elitr, sed diam
+ nonumy  eirmod tempor invidunt ut labore et dolore magna aliquyam
+ erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+ et ea rebum. Stet  clita kasd gubergren, no sea takimata sanctus est.
+ Lorem ipsum dolor sit amet, consectetuer sadipscing elitr, sed diam
+ nonumy  eirmod tempor invidunt ut labore et dolore magna aliquyam
+ erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+ et ea rebum. Stet  clita kasd gubergren, no sea takimata sanctus est.
+ Lorem ipsum dolor sit amet, consectetuer sadipscing elitr, sed diam
+ nonumy  eirmod tempor invidunt ut labore et dolore magna aliquyam
+ erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+ et ea rebum. Stet  clita kasd gubergren, no sea takimata sanctus est.
+</p>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+ 
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-33.php]
+<!-- Program Name: phplayout-33.php -->
+<p class=colormore>
+ <b>
+  <center>
+   <h4>
+    more (elastic width - em)
+   </h4>
+  </center>
+ </b>
+ Lorem ipsum dolor sit amet, consectetuer sadipscing elitr, sed diam
+ nonumy  eirmod tempor invidunt ut labore et dolore magna aliquyam
+ erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+ et ea rebum. Stet  clita kasd gubergren, no sea takimata sanctus est.
+ Lorem ipsum dolor sit amet, consectetuer sadipscing elitr, sed diam
+ nonumy  eirmod tempor invidunt ut labore et dolore magna aliquyam
+ erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+ et ea rebum. Stet  clita kasd gubergren, no sea takimata sanctus est.
+</p>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+ 
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=Layout - phplayout-34.php]
+<!-- Program Name: phplayout-34.php -->
+<center>
+ <h4>
+  foot
+ </h4>
+</center>
+<hr>
+\end{lstlisting}
+\end{minipage}
+\end{center} 
+
+
+\begin{center}
+\begin{minipage}[t]{100mm}
+\begin{lstlisting}[captionpos=b, caption=col3ML.css]
+BODY.col3ML #sitePanel {
+  border: none;
+  margin-left: 20em;
+}
+BODY.col3ML #coreFrame {
+  border-right: 0.1em solid #fff;
+  border-left: 0.1em solid #fff;
+  margin-right: 20em;
+  position: relative;
+}
+BODY.col3ML #corePanel {
+  display: inline;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+BODY.col3ML #mainFrame {
+  display: inline;
+  float: right;
+  position: relative;
+  width: 100%;
+}
+BODY.col3ML #menuFrame {
+  display: inline;
+  float: left;
+  margin-left: -20.1em;
+  position: relative;
+  width: 20em;
+}
+BODY.col3ML #moreFrame {
+  display: inline;
+  float: right;
+  margin-left: 0.1em;
+  margin-right: -20.1em;
+  position: relative;
+  width: 20em;
+}
+\end{lstlisting}
+\end{minipage}
+\end{center}   
+
+\begin{center}
+\begin{minipage}[t]{100mm}
+\begin{lstlisting}[captionpos=b, caption=col3MR.css]
+BODY.col3MR #sitePanel {
+  border: none;
+  margin-left: 20em;
+}
+BODY.col3MR #coreFrame {
+  border-right: 0.1em solid #fff;
+  border-left: 0.1em solid #fff;
+  margin-right: 20em;
+  position: relative;
+}
+BODY.col3MR #corePanel {
+  display: inline;
+  float: right;
+  position: relative;
+  width: 100%;
+}
+BODY.col3MR #mainFrame {
+  display: inline;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+BODY.col3MR #menuFrame {
+  display: inline;
+  float: right;
+  margin-left: 0.1em;
+  margin-right: -20.1em;
+  position: relative;
+  width: 20em;
+}
+BODY.col3MR #moreFrame {
+  display: inline;
+  float: left;
+  margin-left: -20.1em;
+  position: relative;
+  width: 20em;
+}
+\end{lstlisting}
+\end{minipage}
+\end{center}   
+
+\begin{center}
+\begin{minipage}[t]{100mm}
+\begin{lstlisting}[captionpos=b, caption=col2ML.css]
+BODY.col2ML #sitePanel {
+  border: none;
+  margin-left: 20em;
+}
+BODY.col2ML #coreFrame {
+  border-left: 0.1em solid #fff;
+  margin: 0;
+  padding: 0 0 5px 0;
+}
+BODY.col2ML #corePanel {
+  margin: 0;
+  padding: 0;
+}
+BODY.col2ML #mainFrame {
+  display: inline;
+  float: right;
+  position: relative;
+  width: 100%;
+}
+BODY.col2ML #menuFrame {
+  display: inline;
+  float: left;
+  margin-left: -20.1em;
+  position: relative;
+  width: 20em;
+}
+BODY.col2ML DIV.morePanel {
+  display: inline;
+  float: left;
+  width: 20em;
+}
+#moreFrame {display:none}
+\end{lstlisting}
+\end{minipage}
+\end{center}   
+
+\begin{center}
+\begin{minipage}[t]{100mm}
+\begin{lstlisting}[captionpos=b, caption=col2MR.css]
+BODY.col2MR #sitePanel {
+  border: none;
+}
+BODY.col2MR #coreFrame {
+  border-right: 0.1em solid #fff;
+  margin-right: 20em;
+  padding: 0 0 5px 0;
+}
+BODY.col2MR #corePanel {
+  margin: 0;
+}
+BODY.col2MR #mainFrame {
+  display: inline;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+BODY.col2MR #menuFrame {
+  display: inline;
+  float: right;
+  margin-left: 0.1em;
+  margin-right: -20.1em;
+  position: relative;
+  width: 20em;
+}
+BODY.col2MR DIV.morePanel {
+  display: inline;
+  float: left;
+  position: relative;
+  width: 20em;
+}
+#moreFrame {display:none}
+\end{lstlisting}
+\end{minipage}
+\end{center}   
+
+\begin{center}
+\begin{minipage}[t]{100mm}
+\begin{lstlisting}[captionpos=b, caption=col1WM.css]
+ BODY.col1WM #mainFrame {
+   display: block;
+ }
+ #moreFrame {display:none}
+#menuFrame {display:none}  
+\end{lstlisting}
+\end{minipage}
+\end{center}   
+
+ 
+
+\newpage 
+
+\begin{center}
+\begin{minipage}[t]{100mm}
+\begin{lstlisting}[captionpos=b, caption=CSS File x-body.css] 
+BODY.x-body {
+  font-size: x-font-size;
+  font-family: x-font-family;
+} 
+\end{lstlisting}
+ \end{minipage}
+\end{center}    
+
+\begin{table}[hbtp]
+\begin{center}
+\begin{tabular}{|l|l|l|}
+  \hline
+  \multicolumn{3}{|c|}{\textbf{CSS of Font-Family and Font-Size}} \\
+  \hline
+  \hline
+  \textbf{x-body} & \textbf{x-font-size} & \textbf{x-font-family} \\
+   \hline
+   \hline
+   arial080 &  80\%  & Arial, Helvetica  \\
+   \hline
+   arial090 &  90\%  & Arial, Helvetica  \\
+   \hline
+   arial100 & 100\%  & Arial, Helvetica  \\
+   \hline
+   arial110 & 110\%  & Arial, Helvetica  \\
+   \hline
+   arial120 & 120\%  & Arial, Helvetica  \\
+   \hline
+   verdana080 &  80\%  & Verdana, Arial, sans-serif  \\
+   \hline
+   verdana090 &  90\%  & Verdana, Arial, sans-serif  \\
+   \hline
+   verdane100 & 100\%  & Verdana, Arial, sans-serif  \\
+   \hline
+   verdana110 & 110\%  & Verdana, Arial, sans-serif  \\
+   \hline
+   verdana120 & 120\%  & Verdana, Arial, sans-serif  \\
+   \hline
+   trebuchet080 &  80\%  & 'Trebuchet MS', sans-serif  \\
+   \hline
+   trebuchet090 &  90\%  & 'Trebuchet MS', sans-serif  \\
+   \hline
+   trebuchet100 & 100\%  & 'Trebuchet MS', sans-serif  \\
+   \hline
+   trebuchet110 & 110\%  & 'Trebuchet MS', sans-serif  \\
+   \hline
+   trebuchet120 & 120\%  & 'Trebuchet MS', sans-serif  \\
+   \hline
+   georgia080 &  80\%  & Georgia, Times Roman, serif  \\
+   \hline
+   georgia090 &  90\%  & Georgia, Times Roman, serif  \\
+   \hline
+   georgia100 & 100\%  & Georgia, Times Roman, serif  \\
+   \hline
+   georgia110 & 110\%  & Georgia, Times Roman, serif  \\
+   \hline
+   georgia120 & 120\%  & Georgia, Times Roman, serif  \\
+   \hline
+   lucida080 &  80\%  & Lucida console, Monaco, monospace  \\
+   \hline
+   lucida090 &  90\%  & Lucida console, Monaco, monospace  \\
+   \hline
+   lucida100 & 100\%  & Lucida console, Monaco, monospace  \\
+   \hline
+   lucida110 & 110\%  & Lucida console, Monaco, monospace  \\
+   \hline
+   lucida120 & 120\%  & Lucida console, Monaco, monospace  \\
+   \hline
+\end{tabular}
+\caption{CSS of Font-Family and Font-Size} 
+\label{tab:ligatures}
+\end{center}
+\end{table} 
+
+ 
+\newpage 
+
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=CSS File print-mod-test.css] 
+#headFrame {font-size: 14pt;text-align:center;}
+#headFrame {display:none}
+#headPanel DIV.masthead {display:none}
+#headPanel DIV.traybar {display: none} 
+#mainFrame {font-size: 12pt;line-height: 1.2;}
+#moreFrame {display:none}
+#footFrame {display:none}
+#menuFrame {display:none}
+A {text-decoration: none;}
+DIV.toolbar FORM {display: none;}
+DIV.traybar {display:none;} 
+DIV.tabbox {display: none;}
+H1 {font-size: 125%; margin: 0 0 .5em 0;}
+H2 {font-size: 120%; margin: 0 0 .5em 0;}
+H3 {font-size: 115%; margin: 0 0 .5em 0;}
+H4 {font-size: 110%; margin: 0 0 .5em 0;}
+H5 {font-size: 105%; margin: 0 0 .5em 0;}
+H6 {font-size: 100%; margin: 0 0 .5em 0;}
+P {margin: 0 0 .5em 0;}
+BODY H1 {font-size: 100%; height: auto;}
+BODY H1 A {height: auto; text-align: left;}
+BODY H1 A SPAN, 
+BODY H1 A:hover SPAN {font-size: 100%; visibility: visible;}
+.ex {color: red;}
+.hx {color: red;}
+.vx {color: red;}
+.pagebreak {page-break-before:always;}
+\end{lstlisting}
+\end{minipage}
+\end{center}   
+
+\newpage 
+
+\begin{center}
+\begin{minipage}[t]{155mm}
+\begin{lstlisting}[captionpos=b, caption=CSS File nonIE.css] 
+:root {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+:root body {
+  margin: 0;
+  padding: 0;
+}
+#siteShell:after,
+#siteFrame:after,
+#sitePanel:after,
+#coreFrame:after,
+BODY.col3ML #corePanel:after,
+BODY.col3MR #corePanel:after,
+DIV.toolbar FORM:after,
+DIV.tabbox:after,
+DIV.traybar:after,
+DIV.mainPanel:after {
+  clear: both          !important;
+  content: "..."       !important;
+  display: block       !important;
+  font-size: 1px       !important;
+  height: 0            !important;
+  overflow: hidden     !important;
+  visibility: hidden   !important;
+}
+#footerFrame{clear:both;}
+#siteFrame{overflow:hidden;}
+\end{lstlisting}
+\end{minipage}
+\end{center}   
+
+\listoffigures
+
+
+\listoftables
+
+
+ 
+ 
+\lstlistoflistings  
+ 
+ 
+\end{document}
+
+
+ 
+
